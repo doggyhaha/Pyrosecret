@@ -4,7 +4,7 @@ Primitive unstable and incomplete Python library to work with Telegram's Secret 
 
 This library was just a test of mine, i don't even remember if it works 💀.  
 
-> **Note:**
+> **Note**
 > This library is not maintained anymore, it was made for personal use and is not production ready.
 
 This project is basically derived from [painor/telethon-secret-chat](https://github.com/painor/telethon-secret-chat) and [Telegram's docs](https://core.telegram.org/api/end-to-end).
@@ -13,7 +13,7 @@ The e2e schema is taken from [tdlib](https://github.com/tdlib/td/blob/master/td/
 
 I don't know if this library is even useful, but i'm sharing it anyway.
 
-> **Warning:**
+> **Warning**
 > This library is not stable, it may not work at all, i can't guarantee its security, some pre-generated raw methods are already provided because the generator is pretty broken.
 
 ## Installation
@@ -76,7 +76,7 @@ manager.add_secret_event_handler(func=replier)  # we can specify the type of the
 client.run()
 ```
 
-> **Note:**
+> **Note**
 > Due to the fact that secret chats are end-to-end encrypted, if the user tries to accept a secret chat which was already accepted from another session (for example if the user is online from an official client).
 
 ## License
