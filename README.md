@@ -76,8 +76,10 @@ manager.add_secret_event_handler(func=replier)  # we can specify the type of the
 client.run()
 ```
 
+
 > **Note**
 > Due to the fact that secret chats are end-to-end encrypted, if the user tries to accept a secret chat which was already accepted from another session (for example if the user is online from an official client).
+
 
 ## License
 
